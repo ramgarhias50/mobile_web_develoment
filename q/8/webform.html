@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+    Filename: webform.html
+    Author: Nausheen Salauddin
+-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Web Form</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- stylesheets -->
+        <link rel="stylesheet" href="webform.css">
+        <!-- fonts -->
+        <link href="https://fonts.googleapis.com/css2?&family=Work+Sans:wght@600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Web Form</h1>
+        </header>
+        <main>
+            <section>
+                <form action="#" method="get">
+                    <label for="fname">First Name</label>
+                    <input type="text" name="fname" id="fname" required/>
+
+                    <label for="lname">Last Name</label>
+                    <input type="text" name="lname" id="lname" required/>
+
+                    <label for="address">Address</label>
+                    <textarea name="address" id="address" placeholder="type your address here"></textarea>
+
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required/>
+
+                    <label for="tel">Phone Number</label>
+                    <input type="tel" name="tel" id="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Format: 000-000-0000" required/>
+
+                    <label for="comment">Comments</label>
+                    <textarea name="comment" id="comment" placeholder="type your comment here"></textarea>
+
+                    <input type="submit" value="Submit" />
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>Copyright 2023 | Nausheen Salauddin</p>
+        </footer>
+    </body>
+</html>
+

@@ -1,0 +1,29 @@
+body {
+  background-color: #3498db;
+  font-family: "Arial", sans-serif; }
+
+.navbar {
+  background-color: #dfecf5; }
+  .navbar ul {
+    list-style: none; }
+    .navbar ul li {
+      padding: 10px; }
+
+.secondary-button {
+  background-color: #dfecf5;
+  color: white;
+  padding: 10px 20px; }
+
+.column {
+  width: 10000px; }
+
+.primary-button {
+  background-color: #3d5b6e;
+  color: white;
+  padding: 10px 20px; }
+
+p {
+  font-size: 19.2px;
+  line-height: 24px; }
+
+/*# sourceMappingURL=main.css.map */
